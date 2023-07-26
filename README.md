@@ -1,9 +1,8 @@
-# DataStructure Coding
+# 자료구조 C언어로 코딩하기!!👊
 
 
 > ### Chapter01. 자료구조의 기초(DataStructure Base)
 > 01-1. 알고리즘 성능 분석 방법
-
 
 > ### Chapter02. 재귀(Recursion)
 > 02-1. 함수의 재귀적 호출 이해
@@ -26,10 +25,8 @@
 
 > ### Chapter09. 탐색(Search)
 
-> ### Chapter10. 테이블과 해(Search)
+> ### Chapter10. 테이블(Talbe)과 해쉬(Hash)
 
-> ### Chapter11. 탐색(Search)과 해쉬(Hash)
-
-> ### Chapter12. 그래프(Graph)
+> ### Chapter11. 그래프(Graph)
 
 <!-- # English Version -->
