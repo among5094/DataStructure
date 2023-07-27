@@ -1,4 +1,4 @@
-//이진 탐색 트리(Binary Search)구현과 "시간복잡도"계산
+//이진 탐색(Binary Search)구현과 "시간복잡도"계산
 //조건: 정렬된 상태라는 가정이 있어야 한다. 
 #include <Stdio.h>
 
