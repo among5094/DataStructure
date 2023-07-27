@@ -2,7 +2,9 @@
 
 
 > ### Chapter01. 자료구조의 기초(DataStructure Base)
-> 01-1. 알고리즘 성능 분석 방법
+> 1. 순차 탐색(LinearSearch)의 알고리즘의 구현 + "시간복잡도(Time Complexity) 분석"하기
+> 2. 이진 탐색(Binary Search)구현과 "시간복잡도"계산
+> 3. 시간복잡도가 O(n)인 순차 탐색과 시간복잡도가 O(log₂n)인 이진 탐색 알고리즘을 대상으로 비교연산 횟수 확인해보기
 
 > ### Chapter02. 재귀(Recursion)
 > 02-1. 함수의 재귀적 호출 이해
