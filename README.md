@@ -1,9 +1,7 @@
-# 자료구조 C언어로 코딩하기!!👊
+# 목차
 
+<br><br><br>
 
-
-
-  
 > ### Chapter01. 자료구조의 기초(DataStructure Base)
 > 1. 순차 탐색(LinearSearch)의 알고리즘의 구현 + "시간복잡도(Time Complexity) 분석"하기
 > 2. 이진 탐색(Binary Search)구현과 "시간복잡도"계산
