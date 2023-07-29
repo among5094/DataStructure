@@ -1,6 +1,6 @@
 # 목차
 
-<br><br><br>
+<br>
 
 > ### Chapter01. 자료구조의 기초(DataStructure Base)
 > 1. 순차 탐색(LinearSearch)의 알고리즘의 구현 + "시간복잡도(Time Complexity) 분석"하기
@@ -13,12 +13,11 @@
 > 3. 하노이 타워
 
 > ### Chapter03. 연결 리스트(Linked List)1
-> 03-1. 단일 연결 리스트(Single Linked List)  
-> 03-2. 이중 연결 리스트(Double Linked List)  
-> 03-3. 원형 연결 리스트(Circular Linked List)  
+> 1. 배열을 기반으로 리스트 구현하기 
+> 2. 
 
 > ### Chapter04. 스택(Stack)
-> 04-1. 스택의 이해
+> 
 
 > ### Chapter05. 큐(Queue)
 
