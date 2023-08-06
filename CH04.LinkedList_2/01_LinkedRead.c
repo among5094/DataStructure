@@ -10,10 +10,12 @@ typedef struct _node{
 
 int main(void){
 
-    //초기화
-    Node* head=NULL;
-    Node* tail=NULL;
-    Node* cur=NULL;
+    //초기화 - 구조체 Node의 포인터 변수 head와 tail이 각각 NULL을 가리키고 있다. 
+    /*  head -> NULL
+        tail -> NULL 이 상태임 */
+    Node* head=NULL; //리스트의 머리를 가리키는 포인터 변수
+    Node* tail=NULL; //리스트의 꼬리를 가리키는 포인터 변수
+    Node* cur=NULL; //저장된 데이터의 조회에 사용되는 포인터 변수
 
     Node* newNode=NULL;
     int readData;
@@ -27,16 +29,17 @@ int main(void){
         if(readData<1) break;
 
         //노드 추가과정
-        newNode=(Node*)malloc(sizeof(Node)); //동적할당
-        newNode->data=readData;
-        newNode->next=NULL;
+        newNode=(Node*)malloc(sizeof(Node)); //노드(바구니) 생성
+        newNode->data=readData; //노드에 데이터 저장
+        newNode->next=NULL; //노드의 next를 NULL로 초기화
 
+        // 첫 번째 노드라면?
         if(head==NULL)
-            head=newNode;
-        else
+            head=newNode; // 첫 번째 노드를 head가 가리키게 함
+        else // 두 번째 이후 노드라면?
             tail->next=newNode;
         
-        tail=newNode;
+        tail=newNode; //노드의 끝을 tail이 가리키게 함.
     }//while닫기
     printf("\n");
 
